@@ -8,23 +8,26 @@
   </head>
   <body>
     <head>
-      <h1>Vue3 attribute binding</h1>
+      <h1>Vue3 event binding</h1>
       <hr />
     </head>
     <main id="main">
-      <h2>title : {{ name }}</h2>
-      <h2>profile: <a v-bind:href="profile" target="_blank">github</a></h2>
-      <h2 v-html="html"></h2>
+      <h2>Count : {{ count }}</h2>
+      <button v-on:click="inc()">increment +</button>
+      <button v-on:click="count = count - 1">dec -</button>
     </main>
 
     <script>
       const app = Vue.createApp({
         data() {
           return {
-            name: "sakil mahmud",
-            profile: "https://github.com/mistersakil",
-            html: '<a href="https://github.com/mistersakil" target="_blank">github</a>',
+            count: 0,
           };
+        },
+        methods: {
+          inc() {
+            return this.count++;
+          },
         },
       });
 
