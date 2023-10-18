@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>event args: vue 3</title>
+    <script src="./vue3.js"></script>
+  </head>
+  <body>
+    <main id="main">
+      <h1>count: {{ count }}</h1>
+
+      <button v-on:click="increment(1)">increment</button>
+      <button v-on:click="decrement(1, $event)">decrement</button>
+
+      <hr />
+      <button v-on:click="increment(5)">increment</button>
+      <button v-on:click="decrement(5, $event)">decrement</button>
+    </main>
+
+    <script>
+      const app = Vue.createApp({
+        data() {
+          return {
+            count: 0,
+          };
+        },
+        methods: {
+          increment(amount) {
+            return (this.count = this.count + amount);
+          },
+          decrement(amount, event) {
+            console.log(event);
+            return (this.count = this.count - amount);
+          },
+        },
+      });
+      app.mount("#main");
+    </script>
+  </body>
+</html>
