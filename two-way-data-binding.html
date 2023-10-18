@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>two way data binging - vue3</title>
+    <script src="./vue3.js"></script>
+  </head>
+  <body>
+    <h1>two way data binging - vue3</h1>
+
+    <main id="app">
+      <input type="number" v-model="number" autofocus />
+      <br />
+      <br />
+
+      <div>
+        <button @click="handleDouble">double</button>
+        <button @click="handleSquare">square</button>
+      </div>
+      <h4>Given number: {{ number }}</h4>
+      <h5>Result: {{ result }}</h5>
+    </main>
+
+    <script>
+      const app = Vue.createApp({
+        data() {
+          return {
+            number: "",
+            result: "",
+          };
+        },
+        methods: {
+          handleDouble(event) {
+            this.result = this.number * 2;
+          },
+          handleSquare(event) {
+            this.result = this.number * this.number;
+          },
+        },
+      });
+
+      app.mount("#app");
+    </script>
+  </body>
+</html>
