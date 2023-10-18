@@ -17,6 +17,7 @@
       <div>
         <button @click="handleDouble">double</button>
         <button @click="handleSquare">square</button>
+        <button @click="handleReset">reset</button>
       </div>
       <h4>Given number: {{ number }}</h4>
       <h5>Result: {{ result }}</h5>
@@ -36,6 +37,10 @@
           },
           handleSquare(event) {
             this.result = this.number * this.number;
+          },
+          handleReset(event) {
+            this.result = "";
+            this.number = "";
           },
         },
       });
