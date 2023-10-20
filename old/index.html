@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>vue js 3 practice</title>
+    <script src="./vue3.js"></script>
+  </head>
+  <body>
+    <head>
+      <h1>Vue js 3 practice</h1>
+    </head>
+    <main id="main">
+      <h2>title : {{ name }}</h2>
+    </main>
+
+    <script>
+      const app = Vue.createApp({
+        data() {
+          return {
+            name: "sakil vue practice",
+          };
+        },
+      });
+
+      app.mount("#main");
+    </script>
+  </body>
+</html>
