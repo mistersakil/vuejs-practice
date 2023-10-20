@@ -1,8 +1,9 @@
 <script setup>
-const obj = {
+import { reactive } from "vue";
+const obj = reactive({
   a: 10,
   b: 20,
-};
+});
 setTimeout(() => {
   console.log("timeout started");
   obj.a = 40;
