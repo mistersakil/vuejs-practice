@@ -4,6 +4,7 @@ import Reactivity from "./components/Reactivity.vue";
 
 <template>
   <h1>App component</h1>
+  <hr />
   <Reactivity></Reactivity>
 </template>
 
