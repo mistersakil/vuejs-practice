@@ -1,29 +1,29 @@
 <template>
   <h2>list rendering</h2>
 
-  <!-- <h4>list of users by array</h4> -->
-  <!-- <ul>
+  <h4>list of users by array</h4>
+  <ul>
     <li v-for="(user, index) in users" :key="index">
       {{ user }}
     </li>
-  </ul> -->
+  </ul>
 
-  <!-- <h3>list of employees by array of object</h3>
+  <h3>list of employees by array of object</h3>
   <ul>
     <li v-for="({ name, email }, i) in emp" :key="i">
       name: {{ name }} & email {{ email }}
     </li>
-  </ul> -->
+  </ul>
 
   <h4>list of languages on array of array</h4>
-  <!-- <ul>
+  <ul>
     <li
       v-for="([language, framework], parentIndex) in languages"
       :key="parentIndex"
     >
       {{ language }} => {{ framework }}
     </li>
-  </ul> -->
+  </ul>
 
   <ol>
     <li v-for="(languageList, parentIndex) in languages" :key="parentIndex">
@@ -51,12 +51,12 @@ let languages = reactive([
   ["node.js", "express js"],
   ["dart", "flutter"],
 ]);
-// let emp = reactive([
-//   { name: "sakil", email: "sakil@gmail.com" },
-//   { name: "rasel", email: "rasel@gmail.com" },
-//   { name: "monir", email: "monir@gmail.com" },
-// ]);
-// let users = ref(["rasel", "sakil", "monir"]);
+let emp = reactive([
+  { name: "sakil", email: "sakil@gmail.com" },
+  { name: "rasel", email: "rasel@gmail.com" },
+  { name: "monir", email: "monir@gmail.com" },
+]);
+let users = ref(["rasel", "sakil", "monir"]);
 </script>
 
 <style></style>
