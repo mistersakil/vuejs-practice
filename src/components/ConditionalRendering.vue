@@ -11,17 +11,18 @@
   </h3>
   <!-- <h4 v-if="isActive">if value of isActive = {{ isActive }}</h4>
   <h4 v-else>else value of isActive = {{ isActive }}</h4> -->
+  <h4 v-show="true">v-show</h4>
 </template>
 
 <script setup>
 import { ref } from "vue";
 
-let number = ref(101);
+let number = ref(55);
 
-setInterval(() => {
-  console.log("set interval started");
-  number.value = Math.floor(Math.random() * 110);
-}, 3000);
+// setInterval(() => {
+//   console.log("set interval started");
+//   number.value = Math.floor(Math.random() * 110);
+// }, 3000);
 
 // let isActive = ref(true);
 
