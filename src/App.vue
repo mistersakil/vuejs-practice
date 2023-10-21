@@ -1,14 +1,16 @@
 <script setup>
-import Reactivity from "./components/Reactivity.vue";
-import Ref from "./components/Ref.vue";
-import ReactiveUtilities from "./components/ReactiveUtilities.vue";
-import MethodsAndComputedProperties from "./components/MethodsAndComputedProperties.vue";
+// import Reactivity from "./components/Reactivity.vue";
+// import Ref from "./components/Ref.vue";
+// import ReactiveUtilities from "./components/ReactiveUtilities.vue";
+// import Methods from "./components/Methods.vue";
+import ComputedProperties from "./components/ComputedProperties.vue";
 </script>
 
 <template>
   <h1>App component</h1>
   <hr />
-  <MethodsAndComputedProperties></MethodsAndComputedProperties>
+  <ComputedProperties></ComputedProperties>
+  <!-- <Methods></Methods> -->
   <!-- <ReactiveUtilities></ReactiveUtilities> -->
   <!-- <Ref></Ref> -->
   <!-- <Reactivity></Reactivity> -->
