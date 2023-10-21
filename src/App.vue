@@ -4,13 +4,15 @@
 // import ReactiveUtilities from "./components/ReactiveUtilities.vue";
 // import Methods from "./components/Methods.vue";
 // import ComputedProperties from "./components/ComputedProperties.vue";
-import ConditionalRendering from "./components/ConditionalRendering.vue";
+// import ConditionalRendering from "./components/ConditionalRendering.vue";
+import ListRendering from "./components/ListRendering.vue";
 </script>
 
 <template>
   <h1>App component</h1>
   <hr />
-  <ConditionalRendering />
+  <ListRendering />
+  <!-- <ConditionalRendering /> -->
   <!-- <ComputedProperties></ComputedProperties> -->
   <!-- <Methods></Methods> -->
   <!-- <ReactiveUtilities></ReactiveUtilities> -->
