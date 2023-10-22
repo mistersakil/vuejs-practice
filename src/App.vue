@@ -5,13 +5,17 @@
 // import Methods from "./components/Methods.vue";
 // import ComputedProperties from "./components/ComputedProperties.vue";
 // import ConditionalRendering from "./components/ConditionalRendering.vue";
-import ListRendering from "./components/ListRendering.vue";
+// import ListRendering from "./components/ListRendering.vue";
+// import Event from "./components/Event.vue";
+import Form from "./components/Form.vue";
 </script>
 
 <template>
   <h1>App component</h1>
   <hr />
-  <ListRendering />
+  <Form />
+  <!-- <Event /> -->
+  <!-- <ListRendering /> -->
   <!-- <ConditionalRendering /> -->
   <!-- <ComputedProperties></ComputedProperties> -->
   <!-- <Methods></Methods> -->
