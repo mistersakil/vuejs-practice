@@ -1,8 +1,4 @@
 <template>
-  <pre>
-        {{ $formData }}
-    </pre
-  >
   <form @submit.prevent="formSubmitHandler">
     <div>
       <label for="fullName">full name: </label>
@@ -121,6 +117,9 @@
         </option>
       </select>
     </div>
+    <div>
+      <input type="submit" value="Submit" />
+    </div>
   </form>
 </template>
 
@@ -155,8 +154,6 @@ const $skillOptions = ref([
 ]);
 
 const formSubmitHandler = ($e) => {
-  console.log("form submitted with prevent default");
-  console.log($e);
   console.log($formData);
 };
 </script>
