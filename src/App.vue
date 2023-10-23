@@ -7,13 +7,15 @@
 // import ConditionalRendering from "./components/ConditionalRendering.vue";
 // import ListRendering from "./components/ListRendering.vue";
 // import Event from "./components/Event.vue";
-import Form from "./components/Form.vue";
+// import Form from "./components/Form.vue";
+import VueProps from "./components/VueProps.vue";
 </script>
 
 <template>
   <h1>App component</h1>
   <hr />
-  <Form />
+  <VueProps fName="sakil" lName="mahmud" />
+  <!-- <Form /> -->
   <!-- <Event /> -->
   <!-- <ListRendering /> -->
   <!-- <ConditionalRendering /> -->
