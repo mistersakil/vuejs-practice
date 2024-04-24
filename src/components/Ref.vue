@@ -1,5 +1,7 @@
 <template>
-  <u><h2>reference (ref) reactivity</h2></u>
+  <u>
+    <h2>reference (ref) reactivity</h2>
+  </u>
   <h3>obj1 = {{ obj1 }}</h3>
   <h3>obj2 = {{ obj2 }}</h3>
   <h3>obj3 = {{ obj3 }}</h3>
