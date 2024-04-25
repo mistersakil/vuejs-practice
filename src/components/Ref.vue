@@ -38,7 +38,7 @@ setTimeout(() => {
   console.log(obj5);
   console.log(obj5.value.number.num1);
   console.log(obj5.value.count);
-}, 2000);
+}, 3000);
 </script>
 
 <style></style>
