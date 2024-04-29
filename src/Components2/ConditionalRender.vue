@@ -4,12 +4,24 @@ import { ref } from 'vue'
 let show = ref(true)
 let show2 = ref(false)
 
-const marks = ref(34);
+const marks = ref(100);
 </script>
 
 
 <template>
     <h1>conditional rendering</h1>
+    <!-- v-if v-if-else v-else on template tag  -->
+    <template v-if="marks > 70">
+        <h3>you did very well, you achieved a gold medal</h3>
+    </template>
+    <template v-else-if="marks > 50">
+        <h3>you did better. you achieved silver medal</h3>
+    </template>
+    <template v-else>
+        <h3>you did average. you achieved bronze medal</h3>
+    </template>
+
+
     <button v-if="show">this is a visible btn</button>
 
     <!-- this will not show  -->
