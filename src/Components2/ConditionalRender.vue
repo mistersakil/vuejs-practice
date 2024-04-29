@@ -10,6 +10,15 @@ const marks = ref(100);
 
 <template>
     <h1>conditional rendering</h1>
+    <!-- v-show vs v-if  -->
+
+    <button v-if="false">v-if btn</button>
+    <button v-show="false">v-show btn</button>
+
+    <hr>
+    <!-- v-show  -->
+    <button v-show="show">show btn using v-show</button>
+
     <!-- v-if v-if-else v-else on template tag  -->
     <template v-if="marks > 70">
         <h3>you did very well, you achieved a gold medal</h3>
