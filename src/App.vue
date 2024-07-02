@@ -1,7 +1,9 @@
 <script setup>
-import Event from './Components3/Event.vue';
+import ComputedProperties from './Components3/ComputedProperties.vue';
+
+
 </script>
 
 <template>
-  <Event />
+  <ComputedProperties />
 </template>
