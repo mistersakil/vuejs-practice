@@ -1,9 +1,9 @@
 <script setup>
-import ComputedProperties from './Components3/ComputedProperties.vue';
+import Vfor from './Components3/Vfor.vue';
 
 
 </script>
 
 <template>
-  <ComputedProperties />
+  <Vfor />
 </template>
