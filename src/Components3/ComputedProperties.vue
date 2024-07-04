@@ -18,20 +18,20 @@ import { computed } from 'vue';
 //    return `${firstName.value} ${lastName.value}`;
 // })
 
-let isLoggedIn = ref(true)
-let username = 'sakil'
-let login = () => isLoggedIn.value = true 
+// let isLoggedIn = ref(true)
+// let username = 'sakil'
+// let login = () => isLoggedIn.value = true 
 </script>
 
 <template>
-    <div v-if="isLoggedIn">
+    <!-- <div v-if="isLoggedIn">
         Hello {{ username }}
         <p>you can update your personal details here</p>
         <button @click="isLoggedIn=false">Logout</button>
     </div>
     <div v-else>
         Sorry, you are not logged in yet, please <button @click="login">login</button>
-    </div>
+    </div> -->
 
     <!-- <h1>fullName = {{ fullName }}</h1>
     <button @click="firstName = 'rasel'">change first name</button>
