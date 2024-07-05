@@ -8,4 +8,4 @@ let { fName, lName } = defineProps(['fName', 'lName']);
     <h1>Props</h1>
     <p>{{ fName }}</p>
     <p>{{ lName }}</p>
-</template>
+</template>0
