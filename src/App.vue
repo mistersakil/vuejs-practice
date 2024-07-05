@@ -1,11 +1,11 @@
 <script setup>
 
 // import ProvideComponent from './Components3/ProvideComponent.vue';
-import LifecycleHooks from './Components3/LifecycleHooks.vue';
+// import LifecycleHooksContainerComponent from './Components3/LifecycleHooksContainerComponent.vue';
 
 </script>
 
 <template>
-  <LifecycleHooks />
+  <!-- <LifecycleHooksContainerComponent /> -->
   <!-- <ProvideComponent /> -->
 </template>

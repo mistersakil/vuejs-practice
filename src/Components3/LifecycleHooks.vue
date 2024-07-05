@@ -1,5 +1,5 @@
 <script setup>
-import { ref, onBeforeMount, onMounted, onBeforeUpdate, onUpdated } from "vue";
+import { ref, onBeforeMount, onMounted, onBeforeUpdate, onUpdated, onBeforeUnmount, onUnmounted } from "vue";
 
 const count = ref(0)
 
@@ -20,10 +20,18 @@ onUpdated(() => {
     console.log('component has been updated');
 })
 
+onUnmounted(() => {
+    console.log('component has been unmounted');
+})
+
+onBeforeUnmount(() => {
+    console.log('component about to unmount');
+})
+
 </script>
 
 <template>
-    <h1>Lifecycle hooks</h1>
+    <h2>Lifecycle hooks child component</h2>
     <hr>
 
     <h2>Count: {{ count }}</h2>
