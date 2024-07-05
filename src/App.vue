@@ -1,18 +1,13 @@
 <script setup>
-import { ref } from 'vue';
-import ComponentEvent from './Components3/ComponentEvent.vue';
 
-let count = ref(0)
+import SlotComponent from './Components3/SlotComponent.vue';
 
-const handleIncrement = (step) => {
-  count.value += step;
-}
 </script>
 
 <template>
-  <h1>{{ count }}</h1>
-  <ComponentEvent @increment="handleIncrement" :step="5" />
-  <hr />
+  <SlotComponent>
+    <h2>slot as children in react js</h2>
 
-  <ComponentEvent @increment="handleIncrement" :step="10" />
+  </SlotComponent>
+
 </template>
