@@ -1,9 +1,11 @@
 <script setup>
-import Vfor from './Components3/Vfor.vue';
+import { ref } from 'vue';
+import Props from './Components3/Props.vue';
 
-
+const firstName = ref('sakil')
+const lastName = ref('mahmud')
 </script>
 
 <template>
-  <Vfor />
+  <Props :fName="firstName" :lName="lastName" />
 </template>
