@@ -6,8 +6,11 @@ const state = reactive({
 const details = ref('')
 
 watch(() => state.search, (newVal, oldVal) => {
-
-    console.log(newVal, oldVal);
+    if (newVal.length) {
+        details.value = `Your input: ${newVal}`
+    } else {
+        details.value = '';
+    }
 })
 
 </script>
