@@ -4,12 +4,14 @@
 // import LifecycleHooksContainerComponent from './Components3/LifecycleHooksContainerComponent.vue';
 
 // import WatcherComponent from "./Components3/WatcherComponent.vue"
-import ReactiveWatcherComponent from "./Components3/ReactiveWatcherComponent.vue"
+// import ReactiveWatcherComponent from "./Components3/ReactiveWatcherComponent.vue"
 
+import ComponentRef from './Components3/ComponentRef.vue';
 </script>
 
 <template>
-  <ReactiveWatcherComponent />
+  <ComponentRef />
+  <!-- <ReactiveWatcherComponent /> -->
   <!-- <WatcherComponent /> -->
   <!-- <LifecycleHooksContainerComponent /> -->
   <!-- <ProvideComponent /> -->
