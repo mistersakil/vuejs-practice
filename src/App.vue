@@ -6,11 +6,14 @@
 // import WatcherComponent from "./Components3/WatcherComponent.vue"
 // import ReactiveWatcherComponent from "./Components3/ReactiveWatcherComponent.vue"
 
-import ComponentRef from './Components3/ComponentRef.vue';
+// import ComponentRef from './Components3/ComponentRef.vue';
+
+import AsyncComponent from './Components3/AsyncComponent.vue';
 </script>
 
 <template>
-  <ComponentRef />
+  <AsyncComponent />
+  <!-- <ComponentRef /> -->
   <!-- <ReactiveWatcherComponent /> -->
   <!-- <WatcherComponent /> -->
   <!-- <LifecycleHooksContainerComponent /> -->
