@@ -4,7 +4,7 @@ import { ref, defineAsyncComponent } from "vue";
 const toggleUser = ref(false);
 
 const UsersComponents = defineAsyncComponent(() => {
-    import("./UsersComponent.vue")
+    return import("./UsersComponent.vue")
 });
 </script>
 
