@@ -8,11 +8,14 @@
 
 // import ComponentRef from './Components3/ComponentRef.vue';
 
-import AsyncComponent from './Components3/AsyncComponent.vue';
+// import AsyncComponent from './Components3/AsyncComponent.vue';
+
+import ComposableComponent from './Components3/ComposableComponent.vue';
 </script>
 
 <template>
-  <AsyncComponent />
+  <ComposableComponent />
+  <!-- <AsyncComponent /> -->
   <!-- <ComponentRef /> -->
   <!-- <ReactiveWatcherComponent /> -->
   <!-- <WatcherComponent /> -->
