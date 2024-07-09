@@ -10,11 +10,11 @@
 
 // import AsyncComponent from './Components3/AsyncComponent.vue';
 
-import ComposableComponent from './Components3/ComposableComponent.vue';
+import ComposableWrapperComponent from './Components3/ComposableWrapperComponent.vue';
 </script>
 
 <template>
-  <ComposableComponent />
+  <ComposableWrapperComponent />
   <!-- <AsyncComponent /> -->
   <!-- <ComponentRef /> -->
   <!-- <ReactiveWatcherComponent /> -->
