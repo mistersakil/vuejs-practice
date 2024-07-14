@@ -10,11 +10,14 @@
 
 // import AsyncComponent from './Components3/AsyncComponent.vue';
 
-import ComposableWrapperComponent from './Components3/ComposableWrapperComponent.vue';
+// import ComposableWrapperComponent from './Components3/ComposableWrapperComponent.vue';
+
+import ImageInVue from './Components3/ImageInVue.vue';
 </script>
 
 <template>
-  <ComposableWrapperComponent />
+  <ImageInVue />
+  <!-- <ComposableWrapperComponent /> -->
   <!-- <AsyncComponent /> -->
   <!-- <ComponentRef /> -->
   <!-- <ReactiveWatcherComponent /> -->
