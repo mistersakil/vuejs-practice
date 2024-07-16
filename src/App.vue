@@ -13,10 +13,13 @@
 // import ComposableWrapperComponent from './Components3/ComposableWrapperComponent.vue';
 
 import ImageInVue from './Components3/ImageInVue.vue';
+
+import LinkInVue from './Components3/LinkInVue.vue';
 </script>
 
 <template>
-  <ImageInVue />
+  <LinkInVue />
+  <!-- <ImageInVue /> -->
   <!-- <ComposableWrapperComponent /> -->
   <!-- <AsyncComponent /> -->
   <!-- <ComponentRef /> -->
