@@ -12,13 +12,17 @@
 
 // import ComposableWrapperComponent from './Components3/ComposableWrapperComponent.vue';
 
-import ImageInVue from './Components3/ImageInVue.vue';
+// import ImageInVue from './Components3/ImageInVue.vue';
 
-import LinkInVue from './Components3/LinkInVue.vue';
+// import LinkInVue from './Components3/LinkInVue.vue';
+
+import ReactivityComponent from "./Components3/ReactivityComponent.vue";
+
 </script>
 
 <template>
-  <LinkInVue />
+  <ReactivityComponent />
+  <!-- <LinkInVue /> -->
   <!-- <ImageInVue /> -->
   <!-- <ComposableWrapperComponent /> -->
   <!-- <AsyncComponent /> -->
