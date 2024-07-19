@@ -16,12 +16,15 @@
 
 // import LinkInVue from './Components3/LinkInVue.vue';
 
-import ReactivityComponent from "./Components3/ReactivityComponent.vue";
+// import ReactivityComponent from "./Components3/ReactivityComponent.vue";
+
+import CustomDirective from './Components3/CustomDirective.vue';
 
 </script>
 
 <template>
-  <ReactivityComponent />
+  <CustomDirective />
+  <!-- <ReactivityComponent /> -->
   <!-- <LinkInVue /> -->
   <!-- <ImageInVue /> -->
   <!-- <ComposableWrapperComponent /> -->
