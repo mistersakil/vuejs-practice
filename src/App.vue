@@ -18,12 +18,15 @@
 
 // import ReactivityComponent from "./Components3/ReactivityComponent.vue";
 
-import CustomDirective from './Components3/CustomDirective.vue';
+// import CustomDirective from './Components3/CustomDirective.vue';
+
 
 </script>
 
 <template>
-  <CustomDirective />
+  <PluginComponent />
+
+  <!-- <CustomDirective /> -->
   <!-- <ReactivityComponent /> -->
   <!-- <LinkInVue /> -->
   <!-- <ImageInVue /> -->
