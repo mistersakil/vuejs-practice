@@ -20,12 +20,15 @@
 
 // import CustomDirective from './Components3/CustomDirective.vue';
 
+import TabsComponent from './Components3/TabsComponent.vue';
+
 
 </script>
 
 <template>
-  <PluginComponent />
+  <TabsComponent />
 
+  <!-- <PluginComponent /> -->
   <!-- <CustomDirective /> -->
   <!-- <ReactivityComponent /> -->
   <!-- <LinkInVue /> -->
