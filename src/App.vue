@@ -21,13 +21,14 @@
 // import CustomDirective from './Components3/CustomDirective.vue';
 
 import TabsComponent from './Components3/TabsComponent.vue';
+import TabsDynamicComponent from './Components3/TabsDynamicComponent.vue';
 
 
 </script>
 
 <template>
-  <TabsComponent />
-
+  <TabsDynamicComponent />
+  <!-- <TabsComponent /> -->
   <!-- <PluginComponent /> -->
   <!-- <CustomDirective /> -->
   <!-- <ReactivityComponent /> -->
