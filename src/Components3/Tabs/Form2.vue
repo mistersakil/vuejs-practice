@@ -1,6 +1,15 @@
 <script setup>
-import { ref } from 'vue'
+import { ref, onActivated, onDeactivated } from 'vue'
 const name = ref('')
+
+onActivated(() => {
+    console.log('Form2 activated');
+})
+
+onDeactivated(() => {
+    console.log('Form2 de-activated');
+})
+
 </script>
 
 <template>

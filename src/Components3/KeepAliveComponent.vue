@@ -1,6 +1,6 @@
 <script setup>
 
-import { ref } from 'vue';
+import { ref, onActivated, onDeactivated } from 'vue';
 import Form1 from './Tabs/Form1.vue';
 import Form2 from './Tabs/Form2.vue';
 import Form3 from './Tabs/Form3.vue';
@@ -12,6 +12,7 @@ const forms = {
     form2: Form2,
     form3: Form3,
 }
+
 </script>
 
 <template>
