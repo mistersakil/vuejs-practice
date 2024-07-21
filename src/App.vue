@@ -20,14 +20,16 @@
 
 // import CustomDirective from './Components3/CustomDirective.vue';
 
-import TabsComponent from './Components3/TabsComponent.vue';
-import TabsDynamicComponent from './Components3/TabsDynamicComponent.vue';
+// import TabsComponent from './Components3/TabsComponent.vue';
 
+// import TabsDynamicComponent from './Components3/TabsDynamicComponent.vue';
 
+import KeepAliveComponent from './Components3/KeepAliveComponent.vue';
 </script>
 
 <template>
-  <TabsDynamicComponent />
+  <KeepAliveComponent />
+  <!-- <TabsDynamicComponent /> -->
   <!-- <TabsComponent /> -->
   <!-- <PluginComponent /> -->
   <!-- <CustomDirective /> -->
