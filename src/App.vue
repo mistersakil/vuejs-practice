@@ -24,11 +24,17 @@
 
 // import TabsDynamicComponent from './Components3/TabsDynamicComponent.vue';
 
-import KeepAliveComponent from './Components3/KeepAliveComponent.vue';
+// import KeepAliveComponent from './Components3/KeepAliveComponent.vue';
+
+import TeleportContainer from "./Components3/TeleportContainer.vue"
+
 </script>
 
 <template>
-  <KeepAliveComponent />
+
+  <TeleportContainer />
+
+  <!-- <KeepAliveComponent /> -->
   <!-- <TabsDynamicComponent /> -->
   <!-- <TabsComponent /> -->
   <!-- <PluginComponent /> -->

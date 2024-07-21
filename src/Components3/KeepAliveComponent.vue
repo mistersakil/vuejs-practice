@@ -1,6 +1,5 @@
 <script setup>
-
-import { ref, onActivated, onDeactivated } from 'vue';
+import { ref } from 'vue';
 import Form1 from './Tabs/Form1.vue';
 import Form2 from './Tabs/Form2.vue';
 import Form3 from './Tabs/Form3.vue';
