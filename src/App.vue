@@ -28,15 +28,17 @@
 
 // import TeleportContainer from "./Components3/TeleportContainer.vue"
 
-import SuspenseContainer from './Components3/SuspenseContainer.vue'
+// import SuspenseContainer from './Components3/SuspenseContainer.vue'
+
+import ComponentEventContainer from './Components3/ComponentEventContainer.vue';
 
 </script>
 
 <template>
 
 
-  <SuspenseContainer />
-
+  <ComponentEventContainer />
+  <!-- <SuspenseContainer /> -->
   <!-- <TeleportContainer /> -->
   <!-- <KeepAliveComponent /> -->
   <!-- <TabsDynamicComponent /> -->
