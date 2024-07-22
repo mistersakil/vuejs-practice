@@ -12,7 +12,7 @@ const inlineCounterHandler = (step, type, event) => {
 }
 </script>
 <template>
-    <h1>Vue Event Handling</h1>
+    <h1>Inline Event Handling</h1>
     <hr>
     <h3 :style="{ color: 'red', fontSize: '30px' }">Count : {{ counter }}</h3>
 

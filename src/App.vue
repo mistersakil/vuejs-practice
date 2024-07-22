@@ -32,13 +32,16 @@
 
 // import ComponentEventContainer from './Components3/ComponentEventContainer.vue';
 
-import EventInline from './Components3/EventInline.vue';
+// import EventInlineHandler from './Components3/EventInlineHandler.vue';
+
+import EventMethodHandler from './Components3/EventMethodHandler.vue';
 
 </script>
 
 <template>
 
-  <EventInline />
+  <EventMethodHandler />
+  <!-- <EventInlineHandler /> -->
   <!-- <ComponentEventContainer /> -->
   <!-- <SuspenseContainer /> -->
   <!-- <TeleportContainer /> -->
