@@ -40,11 +40,14 @@
 
 import MethodComponent from './Components3/MethodComponent.vue';
 
+import ComputedPropertyComponent from './Components3/ComputedPropertyComponent.vue';
+
 </script>
 
 <template>
 
-  <MethodComponent />
+  <ComputedPropertyComponent />
+  <!-- <MethodComponent /> -->
   <!-- <FormInputBinding /> -->
   <!-- <EventMethodHandler /> -->
   <!-- <EventInlineHandler /> -->
