@@ -36,13 +36,16 @@
 
 // import EventMethodHandler from './Components3/EventMethodHandler.vue';
 
-import FormInputBinding from './Components3/FormInputBinding.vue';
+// import FormInputBinding from './Components3/FormInputBinding.vue';
+
+import MethodComponent from './Components3/MethodComponent.vue';
 
 </script>
 
 <template>
 
-  <FormInputBinding />
+  <MethodComponent />
+  <!-- <FormInputBinding /> -->
   <!-- <EventMethodHandler /> -->
   <!-- <EventInlineHandler /> -->
   <!-- <ComponentEventContainer /> -->
