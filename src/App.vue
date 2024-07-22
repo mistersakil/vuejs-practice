@@ -30,14 +30,16 @@
 
 // import SuspenseContainer from './Components3/SuspenseContainer.vue'
 
-import ComponentEventContainer from './Components3/ComponentEventContainer.vue';
+// import ComponentEventContainer from './Components3/ComponentEventContainer.vue';
+
+import EventInline from './Components3/EventInline.vue';
 
 </script>
 
 <template>
 
-
-  <ComponentEventContainer />
+  <EventInline />
+  <!-- <ComponentEventContainer /> -->
   <!-- <SuspenseContainer /> -->
   <!-- <TeleportContainer /> -->
   <!-- <KeepAliveComponent /> -->
