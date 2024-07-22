@@ -37,6 +37,7 @@ setTimeout(() => {
     <!-- <del>Method without ref</del>
     <h4>Full name: {{ methodWithoutRef() }} </h4> -->
 
+    <!-- if a ref data property changed, then all data property will be changed  -->
     <del>Method with ref</del>
     <h4>Full name: {{ methodWithRef() }} </h4>
 </template>
