@@ -40,4 +40,7 @@ setTimeout(() => {
     <!-- if a ref data property changed of a computed property, then changed data will be displayed for computed property, other data property will not be affected   -->
     <del>Method with ref</del>
     <h4>Full name: {{ computedWithRef }} </h4>
+
+    <del>writeable computed property</del>
+
 </template>
