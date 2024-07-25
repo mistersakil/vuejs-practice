@@ -5,12 +5,12 @@ const { inputLabel, inputId } = defineProps(['inputLabel', 'inputId'])
 
 // console.log(modelable.value);
 
-console.log(inputLabel, inputId);
+// console.log(inputLabel, inputId);
 
 watch(modelable, (newVal, oldVal) => {
-    console.log(modelable.value);
-    console.log(newVal);
-    console.log(oldVal);
+    // console.log(modelable.value);
+    // console.log(newVal);
+    // console.log(oldVal);
 })
 
 </script>
