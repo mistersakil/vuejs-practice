@@ -1,4 +1,6 @@
 <script setup>
+import { ref } from 'vue';
+
 
 const txt = `some text`;
 
@@ -12,6 +14,12 @@ const dynamicAttributes = {
     style: 'background-color:red; width: 100%; height:20px',
 
 }
+
+const seenDirective = ref(true)
+
+setTimeout(() => {
+    seenDirective.value = false
+}, 5000);
 
 </script>
 
@@ -38,5 +46,12 @@ const dynamicAttributes = {
     <del>Dynamically Binding Multiple Attributes </del> <br>
 
     <div v-bind="dynamicAttributes">dynamically binding multiple attributes</div>
+
+    <hr>
+    <del>Directives</del> <br>
+
+    <p v-if="seenDirective" v-bind="dynamicAttributes">now you can see me. after 5 seconds it will hide</p>
+
+
 
 </template>
