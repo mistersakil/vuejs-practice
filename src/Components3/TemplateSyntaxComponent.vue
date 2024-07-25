@@ -21,6 +21,8 @@ setTimeout(() => {
     seenDirective.value = false
 }, 5000);
 
+
+const googleUrl = "https://www.google.com";
 </script>
 
 
@@ -29,29 +31,39 @@ setTimeout(() => {
     <h1>Template syntax</h1>
     <hr>
 
-    <del>text interpolation</del>
+    <blockquote>text interpolation</blockquote>
 
     <p>message: {{ txt }}</p>
 
-    <del>using v-html directive</del>
+    <blockquote>using v-html directive</blockquote>
     <h4 v-html="vHtml"></h4>
 
-    <del>Boolean Attributes</del> <br>
+    <blockquote>Boolean Attributes</blockquote> <br>
 
     <input type="text" disabled="" placeholder="disabled by empty string" />
     <input type="text" disabled placeholder="disabled general attribute" />
     <input type="text" :disabled="isDisabled" placeholder="disabled by data attribute" />
-
-    <hr>
-    <del>Dynamically Binding Multiple Attributes </del> <br>
+    <blockquote>Dynamically Binding Multiple Attributes </blockquote>
 
     <div v-bind="dynamicAttributes">dynamically binding multiple attributes</div>
 
     <hr>
-    <del>Directives</del> <br>
+    <blockquote>Directives</blockquote>
 
     <p v-if="seenDirective" v-bind="dynamicAttributes">now you can see me. after 5 seconds it will hide</p>
+    <blockquote>Arguments: must be placed after directive precede with `: | @` ex: v-bind:href | v-on:click | @click
+    </blockquote>
+
+    <a v-bind:href="googleUrl" target="_blank">Google.com</a>
+
 
 
 
 </template>
+
+<style>
+blockquote {
+    background-color: gray;
+    padding: 10px;
+}
+</style>
