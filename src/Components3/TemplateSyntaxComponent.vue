@@ -6,6 +6,13 @@ const vHtml = `<span style="color:red">this is a red text</span>`
 
 const isDisabled = 1;
 
+const dynamicAttributes = {
+    id: 'testId',
+    class: 'testClass',
+    style: 'background-color:red; width: 100%; height:20px',
+
+}
+
 </script>
 
 
@@ -26,5 +33,10 @@ const isDisabled = 1;
     <input type="text" disabled="" placeholder="disabled by empty string" />
     <input type="text" disabled placeholder="disabled general attribute" />
     <input type="text" :disabled="isDisabled" placeholder="disabled by data attribute" />
+
+    <hr>
+    <del>Dynamically Binding Multiple Attributes </del> <br>
+
+    <div v-bind="dynamicAttributes">dynamically binding multiple attributes</div>
 
 </template>
