@@ -27,6 +27,9 @@ const facebookUrl = "https://www.facebook.com";
 
 const dynamicHref = 'href'
 
+const onClickArgument = 'click'
+
+const count = ref(0)
 
 </script>
 
@@ -64,13 +67,17 @@ const dynamicHref = 'href'
     <a v-bind:href="googleUrl" target="_blank">Google.com</a> &nbsp;
     <a :href="facebookUrl" target="_blank">Facebook.com</a>
 
-    <blockquote>Dynamic Arguments</blockquote>
+    <blockquote>Dynamic Arguments for href attribute</blockquote>
 
     <a v-bind:[dynamicHref]="googleUrl" target="_blank">Google</a> &nbsp;
     <a :[dynamicHref]="facebookUrl" target="_blank">Facebook</a>
 
 
+    <blockquote>Dynamic Arguments for event</blockquote>
 
+    <button v-on:[onClickArgument]="count++">++ increment -> {{ count }}</button> &nbsp;
+
+    <button @[onClickArgument]="count--">-- decrement (shorthand) -> {{ count }}</button>
 
 
 </template>
