@@ -28,8 +28,12 @@ const facebookUrl = "https://www.facebook.com";
 const dynamicHref = 'href'
 
 const onClickArgument = 'click'
+const onClickArgument2 = null
+const onClickArgument3 = ''
 
 const count = ref(0)
+
+const imgPath = "https://vuejs.org/assets/directive.DtZKvoAo.png"
 
 </script>
 
@@ -77,7 +81,18 @@ const count = ref(0)
 
     <button v-on:[onClickArgument]="count++">++ increment -> {{ count }}</button> &nbsp;
 
-    <button @[onClickArgument]="count--">-- decrement (shorthand) -> {{ count }}</button>
+    <button @[onClickArgument]="count--">-- decrement (shorthand) -> {{ count }}</button> &nbsp;
+
+    <button v-on:[onClickArgument2]="count++">with null value</button> &nbsp;
+    <button v-on:[onClickArgument3]="count++">with empty string</button>
+
+    <blockquote>Modifiers: Modifiers are special postfixes denoted by a dot (0)</blockquote>
+
+    <button v-on:click.ctrl.exact="count++">++ increment by exact ctrl+click {{ count }}</button> &nbsp;
+
+    <a @[onClickArgument].prevent="count++" :href="googleUrl" target="_blank">link prevent default</a>
+
+    <img v-bind:src="imgPath" alt="directive argument modifier" width="400" />
 
 
 </template>
