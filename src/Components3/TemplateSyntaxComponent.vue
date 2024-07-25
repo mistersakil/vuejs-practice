@@ -23,6 +23,11 @@ setTimeout(() => {
 
 
 const googleUrl = "https://www.google.com";
+const facebookUrl = "https://www.facebook.com";
+
+const dynamicHref = 'href'
+
+
 </script>
 
 
@@ -51,10 +56,19 @@ const googleUrl = "https://www.google.com";
     <blockquote>Directives</blockquote>
 
     <p v-if="seenDirective" v-bind="dynamicAttributes">now you can see me. after 5 seconds it will hide</p>
+
+
     <blockquote>Arguments: must be placed after directive precede with `: | @` ex: v-bind:href | v-on:click | @click
     </blockquote>
 
-    <a v-bind:href="googleUrl" target="_blank">Google.com</a>
+    <a v-bind:href="googleUrl" target="_blank">Google.com</a> &nbsp;
+    <a :href="facebookUrl" target="_blank">Facebook.com</a>
+
+    <blockquote>Dynamic Arguments</blockquote>
+
+    <a v-bind:[dynamicHref]="googleUrl" target="_blank">Google</a> &nbsp;
+    <a :[dynamicHref]="facebookUrl" target="_blank">Facebook</a>
+
 
 
 
