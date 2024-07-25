@@ -42,12 +42,15 @@
 
 // import ComputedPropertyComponent from './Components3/ComputedPropertyComponent.vue';
 
-import TemplateSyntaxComponent from './Components3/TemplateSyntaxComponent.vue';
+// import TemplateSyntaxComponent from './Components3/TemplateSyntaxComponent.vue';
+
+import ComponentVmodel from './Components3/ComponentVmodel.vue';
 </script>
 
 <template>
 
-  <TemplateSyntaxComponent />
+  <ComponentVmodel />
+  <!-- <TemplateSyntaxComponent /> -->
   <!-- <ComputedPropertyComponent /> -->
   <!-- <MethodComponent /> -->
   <!-- <FormInputBinding /> -->
