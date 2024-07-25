@@ -38,15 +38,17 @@
 
 // import FormInputBinding from './Components3/FormInputBinding.vue';
 
-import MethodComponent from './Components3/MethodComponent.vue';
+// import MethodComponent from './Components3/MethodComponent.vue';
 
-import ComputedPropertyComponent from './Components3/ComputedPropertyComponent.vue';
+// import ComputedPropertyComponent from './Components3/ComputedPropertyComponent.vue';
 
+import TemplateSyntaxComponent from './Components3/TemplateSyntaxComponent.vue';
 </script>
 
 <template>
 
-  <ComputedPropertyComponent />
+  <TemplateSyntaxComponent />
+  <!-- <ComputedPropertyComponent /> -->
   <!-- <MethodComponent /> -->
   <!-- <FormInputBinding /> -->
   <!-- <EventMethodHandler /> -->
