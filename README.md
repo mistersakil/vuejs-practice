@@ -1,29 +1,14 @@
-# vue1
+# Vue Js Practice
 
-This template should help get you started developing with Vue 3 in Vite.
+Learning vue js 3
 
-## Recommended IDE Setup
+## What next?
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
-
-## Customize configuration
-
-See [Vite Configuration Reference](https://vitejs.dev/config/).
-
-## Project Setup
-
-```sh
-npm install
-```
-
-### Compile and Hot-Reload for Development
-
-```sh
-npm run dev
-```
-
-### Compile and Minify for Production
-
-```sh
-npm run build
-```
+    * Build vue application - TODO app, weather app, currency converter
+    *   Learn routing - Vue router
+    *   State Management - Pinia
+    *   UI design - Vuetify
+    *   Mobile app development - Ionic
+    *   Vue framework - Nuxt 3
+    *   Unit testing - Vitest
+    *   Keep practicing util die
