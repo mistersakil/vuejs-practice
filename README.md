@@ -4,7 +4,7 @@ Learning vue js 3
 
 ## What next?
 
-    * Build vue application - TODO app, weather app, currency converter
+    *   Build vue application - TODO app, weather app, currency converter
     *   Learn routing - Vue router
     *   State Management - Pinia
     *   UI design - Vuetify

@@ -44,12 +44,17 @@
 
 // import TemplateSyntaxComponent from './Components3/TemplateSyntaxComponent.vue';
 
-import ComponentVmodel from './Components3/ComponentVmodel.vue';
+// import ComponentVmodel from './Components3/ComponentVmodel.vue';
+
+// import PropsComponent from './Components3/PropsComponent.vue';
+
+
 </script>
 
 <template>
 
-  <ComponentVmodel />
+  <PropsComponent />
+  <!-- <ComponentVmodel /> -->
   <!-- <TemplateSyntaxComponent /> -->
   <!-- <ComputedPropertyComponent /> -->
   <!-- <MethodComponent /> -->
