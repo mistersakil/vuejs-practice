@@ -3,15 +3,21 @@
 </script>
 
 <template>
-    <h1>Learning Slot</h1>
-    <hr>
-    <slot>
-        <h3>default slot data will be shown when no data provided by parent component</h3>
+
+    <header>
+        <slot name="headerSlot">
+            <p>header area</p>
+        </slot>
+    </header>
+    <slot name="default">
+        <p>default slot data will be shown when no data provided by parent component</p>
     </slot>
 
-    <slot name="one"></slot>
-
-    <slot name="two"></slot>
+    <footer>
+        <slot name="footerSlot">
+            <p>footer area</p>
+        </slot>
+    </footer>
 
 
 

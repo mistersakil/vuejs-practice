@@ -48,12 +48,15 @@
 
 // import PropsComponent from './Components3/PropsComponent.vue';
 
+import SlotContainerComponent from './Components3/SlotContainerComponent.vue';
 
 </script>
 
 <template>
 
-  <PropsComponent />
+
+  <SlotContainerComponent />
+  <!-- <PropsComponent /> -->
   <!-- <ComponentVmodel /> -->
   <!-- <TemplateSyntaxComponent /> -->
   <!-- <ComputedPropertyComponent /> -->
