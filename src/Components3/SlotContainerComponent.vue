@@ -24,6 +24,14 @@ import SlotScopedComponent from "./SlotScopedComponent.vue"
         </template>
     </SlotScopedComponent>
 
+    <blockquote>Scoped Named Slot Shorthand using template</blockquote>
+    <SlotScopedComponent>
+        <template #userInfo="{ userName, email }">
+            <button>{{ userName }}</button> &nbsp;
+            <button>{{ email }}</button>
+        </template>
+    </SlotScopedComponent>
+
     <blockquote>Conditional Slot</blockquote>
 
     <SlotCardComponent>
