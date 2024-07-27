@@ -1,12 +1,28 @@
 <script setup>
 import SlotComponent from "./SlotComponent.vue"
 import SlotCardComponent from "./SlotCardComponent.vue"
+
+import SlotScopedComponent from "./SlotScopedComponent.vue"
 </script>
 
 
 <template>
     <h1>Slot Content and Outlet </h1>
     <hr>
+
+    <blockquote>Scoped Slot</blockquote>
+    <SlotScopedComponent v-slot:default="{ greet, age }">
+        <button>{{ greet }}</button> &nbsp;
+        <button>{{ age }}</button>
+    </SlotScopedComponent>
+
+    <blockquote>Scoped Slot Shorthand using template</blockquote>
+    <SlotScopedComponent>
+        <template #default="{ greet, age }">
+            <button>{{ greet }}</button> &nbsp;
+            <button>{{ age }}</button>
+        </template>
+    </SlotScopedComponent>
 
     <blockquote>Conditional Slot</blockquote>
 
