@@ -1,11 +1,26 @@
 <script setup>
 import SlotComponent from "./SlotComponent.vue"
+import SlotCardComponent from "./SlotCardComponent.vue"
 </script>
 
 
 <template>
     <h1>Slot Content and Outlet </h1>
     <hr>
+
+    <blockquote>Conditional Slot</blockquote>
+
+    <SlotCardComponent>
+        <template v-slot:cardHeader>
+            card header
+        </template>
+        <template v-slot:default>
+            card content text
+        </template>
+        <template v-slot:cardFooter>
+            card footer text
+        </template>
+    </SlotCardComponent>
 
     <blockquote>Slot outlet</blockquote>
     <SlotComponent>
